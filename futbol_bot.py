@@ -17,7 +17,7 @@ from aiogram.types import (CallbackQuery, InlineKeyboardButton, KeyboardButton,
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # ======================= SOZLAMALAR =======================
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8702007958:AAFXo9n93BuFuAqlCpFJI95lLS-6rJ72uVM")
 if not BOT_TOKEN:
     raise RuntimeError(
         "BOT_TOKEN environment o'zgaruvchisi berilmagan. "
@@ -26,7 +26,7 @@ if not BOT_TOKEN:
 
 ADMIN_IDS = {
     int(x)
-    for x in os.getenv("ADMIN_IDS", "1833071130").split(",")
+    for x in os.getenv("ADMIN_IDS", "7830914938").split(",")
     if x.strip() and x.strip().isdigit()
 }
 OPEN_HOUR, CLOSE_HOUR = 8, 24       # 08:00 dan 24:00 gacha
