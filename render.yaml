@@ -7,8 +7,8 @@ services:
     startCommand: python futbol_bot.py
     envVars:
       - key: BOT_TOKEN
-        sync: false
+        value: 8702007958:AAFXo9n93BuFuAqlCpFJI95lLS-6rJ72uVM
       - key: ADMIN_IDS
-        value: 1833071130
+        value: 7830914938
       - key: PYTHON_VERSION
         value: 3.11.9
