@@ -17,7 +17,7 @@ from aiogram.types import (CallbackQuery, InlineKeyboardButton, KeyboardButton,
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
 # ======================= SOZLAMALAR =======================
-BOT_TOKEN = os.getenv("8702007958:AAFXo9n93BuFuAqlCpFJI95lLS-6rJ72uVM")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise RuntimeError(
         "BOT_TOKEN environment o'zgaruvchisi berilmagan. "
